@@ -1,0 +1,4 @@
+~~~~~ RangeDroper V1 ~~~~~
+1. Drag the files into your server 
+2. run rd.py
+Done!
