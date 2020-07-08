@@ -15,11 +15,22 @@ print("\033[1;34;40m╠╦╝├─┤││││ ┬├┤  ║║├┬┘│
 print("\033[1;34;40m╩╚═┴ ┴┘└┘└─┘└─┘═╩╝┴└─└─┘┴  ┴  └─┘┴└─\033[0m")
 print("\n")
 print("We make scary ASN go away...")
-print("\n")
-print("Enter their hosting's ASN here:") ASN = input()
-if ASN == ("AS14061"):
-    print("Digital Ocean Should ban this SkiD.")
-if ASN == ("ASN16276"):
-    print("Looking like urGoogle with that OVH Hosting Perl Skript.")
-os.system("chmod 777 *")
-os.system("ulimit -n 999999 && chmod 777 scraper && ./scraper" + spaceString + ASN + spaceString + "&& clear && cd ~ && python3 abh.py && python3 aud.py && clear")
+dec = input("O[n]e asn or [m]ultiple?)
+if dec == "n':
+    print("\n")
+    print("Enter their hosting's ASN here:") ASN = input()
+    if ASN == ("AS14061"):
+        print("Digital Ocean Should ban this SkiD.")
+    if ASN == ("ASN16276"):
+        print("Looking like urGoogle with that OVH Hosting Perl Skript.")
+    os.system("chmod 777 *")
+    os.system("ulimit -n 999999 && chmod 777 scraper && ./scraper" + spaceString + ASN + spaceString + "&& clear && cd ~ && python3 abh.py && python3 aud.py && clear")
+if dec == "m"
+    print("\n")
+    print("Enter all your ASNs into a txt file  and enter the name + the extention Ex: asns.txt"
+    print("Enter file name:")
+    fn = input(>>>>>)
+    os.system("python3 add.py" + spaceString + fn)
+else:
+    print(Invalid option)
+    os.system("python rd.py")
